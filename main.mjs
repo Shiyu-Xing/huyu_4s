@@ -126,8 +126,8 @@ const ensureSliderStyles = () => {
 const resolveAssetUrl = (relativePath) => new URL(relativePath, import.meta.url).toString();
 
 const assets = {
-	gs1: new pc.Asset('gsplat-1', 'gsplat', { url: resolveAssetUrl('https://cdn.jsdelivr.net/gh/Shiyu-Xing/demo_4s/yixuan_4s.ply') }),
-	orbit: new pc.Asset('script', 'script', { url: resolveAssetUrl('https://cdn.jsdelivr.net/gh/Shiyu-Xing/demo_4s/orbit-camera.js') })
+	gs1: new pc.Asset('gsplat-1', 'gsplat', { url: resolveAssetUrl('https://cdn.jsdelivr.net/gh/Shiyu-Xing/huyu_4s/yixuan_4s.ply') }),
+	orbit: new pc.Asset('script', 'script', { url: resolveAssetUrl('https://cdn.jsdelivr.net/gh/Shiyu-Xing/huyu_4s/orbit-camera.js') })
 };
 
 const assetArray = Object.values(assets);
